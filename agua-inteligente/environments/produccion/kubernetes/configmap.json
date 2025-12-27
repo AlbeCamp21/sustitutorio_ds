@@ -1,0 +1,16 @@
+{
+    "apiVersion": "v1",
+    "kind": "ConfigMap",
+    "metadata": {
+        "name": "planta-produccion-config"
+    },
+    "data": {
+        "ENTORNO": "produccion",
+        "RED": "planta-local",
+        "PH_MIN": "6.5",
+        "PH_MAX": "8.5",
+        "TURBIDEZ_MAX": "4.0",
+        "CAUDAL_MIN": "10.0",
+        "CAUDAL_MAX": "100.0"
+    }
+}

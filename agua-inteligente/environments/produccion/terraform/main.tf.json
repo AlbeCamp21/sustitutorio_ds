@@ -1,0 +1,25 @@
+{
+    "resource": [
+        {
+            "null_resource": [
+                {
+                    "produccion": [
+                        {
+                            "provisioner": [
+                                {
+                                    "local-exec": {
+                                        "command": "echo 'Iniciando planta produccion en red planta-local'"
+                                    }
+                                }
+                            ],
+                            "triggers": {
+                                "nombre": "produccion",
+                                "red": "planta-local"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
