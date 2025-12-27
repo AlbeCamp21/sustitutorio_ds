@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "tipo": "ph",
+    "valor": 7.2,
+    "timestamp": "2025-12-27 16:28:04"
+  },
+  {
+    "id": 2,
+    "tipo": "turbidez",
+    "valor": 2.5,
+    "timestamp": "2025-12-27 16:28:04"
+  },
+  {
+    "id": 3,
+    "tipo": "caudal",
+    "valor": 45.0,
+    "timestamp": "2025-12-27 16:28:04"
+  }
+]
